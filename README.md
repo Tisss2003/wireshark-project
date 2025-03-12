@@ -43,7 +43,7 @@ This project demonstrates how **unencrypted HTTP traffic** can expose sensitive 
 - **Evidence & Screenshots:**
 
   - Packet capture screenshot showing **HTTP POST request with login credentials**.
-  - Filter applied: `http.request.method == "POST"` to locate authentication requests.
+  - Filter applied: `http.request.method == "POST"` to locate authentication requests.wireshark.png
   - Comparison with an HTTPS request to highlight encrypted vs. unencrypted traffic.
 
 - **Next Steps:**
